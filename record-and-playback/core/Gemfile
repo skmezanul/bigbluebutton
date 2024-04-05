@@ -20,8 +20,8 @@
 source "http://rubygems.org"
 
 gem "redis"
-gem "nokogiri"
-gem "resque"
+gem "nokogiri", ">= 1.15.6"
+gem "resque", ">= 1.26.0"
 gem "mime-types"
 gem "streamio-ffmpeg"
 gem "rubyzip"
